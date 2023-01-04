@@ -1,0 +1,142 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body{
+    background-color: #bbb;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: brown;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.btn{
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid cadetblue;
+    padding: 10px;
+    margin: 10px auto;
+    background: cadetblue;
+    color: aliceblue;
+    display: block;
+    width: 200px;
+    text-align: center;
+}
+.btn:hover{
+    background: aliceblue;
+    color: cadetblue;
+}
+
+.nav-right{
+    float: right;
+}
+.nav-left{
+    float: left;
+    clear: both;
+}
+.navigation{
+    background-color: cadetblue;
+}
+.navigation ul {
+    margin: 0 auto;
+    max-width: 1200px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: 0 170px;
+}
+  
+.navigation ul li {
+    float: left;
+  }
+  
+.navigation ul li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+.navigation ul li a:hover{
+    background-color: aliceblue;
+    color: cadetblue;
+}
+
+/* INDEXPAGE */
+
+.logo{
+    margin-top: 15px;
+    max-height: 200px;
+    max-width: 200px;
+    text-align: center;
+    margin: 10px auto 0;
+}
+.logo img{
+    border-radius: 5%;
+}
+.login_register{
+    text-align: center;
+}
+
+.error_message{
+    color: red;
+    font-weight: 500;
+}
+
+.user_form{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+ 
+
+/* .btn{
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid rgb(52,49,49);
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(207,133,129);
+    color: white;
+    font-weight: bold;
+    border-radius: 5%;
+    width: 200px;
+    text-align: center;
+} */
+/* 
+.btn.submit{
+    width: 150px;
+} */
+
+/* form{
+    text-align: center;
+} */
+
+/* img.logo{
+    margin-top: 30px !important;
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+} */
+
+
+
+/* .group{
+    text-align: center;
+    text-decoration: underline;
+} */

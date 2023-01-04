@@ -1,0 +1,39 @@
+
+<!-- https://www.youtube.com/watch?v=CSHx6eCkmv0 -->
+<!-- https://www.youtube.com/watch?v=71EU8gnZqZQ&t=150s -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% if pageTitle %}
+        <title> ShareIt- {{ pageTitle }}</title>
+        {% else %}
+            <title>ShareIt</title>
+        {% endif %}
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <div class="nav-left">
+                <li><a href="{{url_for('index')}}">Home</a></li>
+                <li><a href="{{url_for('about')}}">About</a></li>
+            </div>
+            <div class="nav-right">
+                <li><a href="{{url_for('logout')}}">Logout</a></li>
+            </div>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>About!!!!</h1>
+    </div>
+    
+    
+</body>
+</html>
